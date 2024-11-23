@@ -1,0 +1,167 @@
+body {
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+}
+
+.main-container {
+    background-image: url(Backimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20px;
+    min-height: 100%;  
+    
+    
+    
+}
+
+.background-tint {
+    background-color: rgba(64, 64, 64, 0.546);
+    background-blend-mode: multiply;
+}
+
+.Gp {
+    padding-left: 60px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+
+}
+
+span {
+    color: #ffc451;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+a {
+    margin: 0px 20px;
+}
+
+a:hover{
+    color: #ffc451;}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 40PX;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    width: 130px;
+    cursor:pointer;
+    color:#fff;
+    border: 2px solid #ffc451;
+    background-color: black;
+    padding: 10px;
+    margin-right: 40px;
+    border-radius: 10PX ;
+}
+
+button:hover {
+    color: black;
+   background-color: #ffc451;
+   
+}
+
+
+.content {
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 0px;
+    font-size: 30px;
+}
+
+h5 {
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    border: 1px solid whitesmoke;
+    text-align: center;
+    padding: 30px 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+    color: white;
+}
+.box3 {
+    border: 1px solid whitesmoke;
+    text-align: center;
+    padding: 30px 20px;
+    width: 110px;
+    height: 100px;
+    font-size: 15px;
+    color: white;
+}
+.box3:hover {
+    border-color: #ffc451;
+}
+.box3 h5:hover {
+    color: #ffc451;
+}
+.box:hover {
+    border-color: #ffc451;
+
+}
+.box3{
+    cursor: pointer;
+}
+
+.box h5 {
+    cursor: pointer;
+    
+}
+
+.box h5:hover {
+    color: #ffc451;
+}
+.boxs{
+
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+ }
+ .box1{
+      margin-top :0px;
+     width: 600px;
+     height: 400px;
+ }
+ .box2{
+     margin-top : 50px; 
+       border: 2px;
+       width: 600px;
+       height: 400px;
+ }
+ h2{
+     font-size: 30px;
+     margin-left: 20px;
+ }
+ p{
+     margin-left: 20px;
+ 
+ }
+ img{
+     background-size: cover;
+     width: 100%;
+     height: 400px;
+     border: none;
+ }
